@@ -12,10 +12,9 @@ int main(){
 	char c[m][n];
 	for(int i=0; i< m ; i++)
 	cin >> c[i];
-	
 	leftup S[m][n];
 	int left[m][n];
-	int up[m][n];
+	int up[m][n];	
 	cout << S[1][2].left;
 	return 0;
 }
